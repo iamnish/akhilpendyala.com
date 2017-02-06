@@ -30,13 +30,15 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-<!--
-  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
--->
+<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/images/favicons/manifest.json">
+	<link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+	<meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
 </head>
 
@@ -51,13 +53,11 @@
 	<!-- Home Section -->
 	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
 		<div class="intro">
-			<div class="profile_image"></div>
-			<div class="intro-sub">Akhil Pendyala</div>
-			<h1>Web <span>Developer</span></h1>
 
+			<div class="intro-sub" style="font-size: 250%">Akhil Pendyala</div>
 
-			<p style="font-size:20px; ">I am a senior year computer science student at The State University of New York at Buffalo.<br>I have a strong academic background combined with a passion for problem-solving &amp; learning new technologies.<br> I'm currently looking for full-time opportunities from May 2017.
-</p>
+			<div class="element"></div>
+
 
       <div class="social-icons">
         <ul class="list-inline">
@@ -69,15 +69,16 @@
         </ul>
       </div> <!-- /.social-icons -->
       <br>
-      <a target="_blank" href="resume.pdf" class="btn btn-default">Resume/CV</a>
+
 		</div>
 
-   <a href="#education">
+   <a href="#about">
 	  	<div class="mouse-icon">
 		  	<div class="wheel"></div>
 		 </div>
    </a>
 	</section><!-- End Home Section -->
+
 
 
 
@@ -93,12 +94,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" style=" font-size:180%" href="index.html">Akhil <p style=" color:black;">Pendyala</p></a>
+					<a class="navbar-brand" href="#home"><img src="assets/images/logo.png" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
 						<li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
 						<li><a href="#skills">Skills</a></li>
@@ -111,6 +113,68 @@
 	</header><!-- End Navigation -->
 
 
+		<!-- About Section -->
+		<section id="about" class="about-section section-padding">
+			<div class="container" style="margin-bottom: -10%">
+				<h2 class="section-title wow fadeInUp">About Me</h2>
+
+				<div class="row">
+
+					<div class="col-md-4 col-md-push-8" style="margin-top: -5%">
+						<div class="biography">
+							<div class="myphoto">
+								<img src="assets/images/akhil.jpg" alt="">
+							</div>
+							<ul>
+								<li><strong>Name:</strong> Sai Akhil Pendyala</li>
+								<li><strong>Date of birth:</strong> 04 Sep 1995</li>
+								<li><strong>Nationality:</strong> Indian</li>
+								<li><strong>Phone:</strong> +1 (614)949-9442 <br>&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	+91(770)285-4247</li>
+								<li><strong>Email:</strong> saiakhilpendyala@gmail.com</li>
+							</ul>
+						</div>
+					</div> <!-- col-md-4 -->
+
+					<div class="col-md-8 col-md-pull-4">
+						<div class="short-info wow fadeInUp">
+							<h3>Objective</h3>
+							<p style="font-size:20px">	I am a senior year computer science student at The State University of New York at Buffalo.I have a strong academic background combined with a passion for problem-solving &amp; learning new technologies.<br> <strong>I'm currently looking for full-time opportunities from May 2017.</strong></p>
+						</div>
+
+
+
+						<div class="my-signature">
+							<img src="assets/images/sign.png" alt="" style="width: 150px; height: 60px">
+						</div>
+
+						<div class="download-button">
+							<a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+							<a class="btn btn-primary btn-lg" target="_blank" href="resume.pdf"><i class="fa fa-download"></i>resume/ CV</a>
+						</div>
+					</div>
+
+
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</section><!-- End About Section -->
+
+		<!-- Video Section -->
+    <section id="video" class="video-section">
+      <div class="tf-bg-overlay">
+
+        <div class="container">
+
+          <div class="video-intro">
+
+          </div>
+
+        </div>
+
+        <!--/.container-->
+      </div>
+      <!--/.overlay-->
+    </section>
+    <!-- /.Video Section -->
 
     <!-- Education Section -->
     <section id="education" class="resume-section section-padding">
@@ -125,10 +189,10 @@
                         <ul class="timeline">
                             <li>
                                 <div class="posted-date">
-                                    <span class="month">2015-2017</span>
+                                    <span class="month wow rubberBand">2015-2017</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInLeft">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Bachelor's degree </h3>
@@ -142,14 +206,17 @@
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
+																<div class="imgs_left wow fadeInRight">
+																	<img src="assets/images/Crest_BW.png">
+																</div>
                             </li>
 
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                    <span class="month">2013-2015</span>
+                                    <span class="month wow rubberBand">2013-2015</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInRight">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Transfer (Bachelor's degree)</h3>
@@ -161,6 +228,9 @@
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div> <!-- /timeline-panel -->
+																<div class="imgs_right wow fadeInLeft">
+																	<img src="assets/images/manipal.png">
+																</div>
                             </li>
                         </ul>
                     </div>
@@ -176,11 +246,11 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Current Interests:</h2>
-               <h3>Node.js</h3>
-               <h3>Hadoop</h3>
-               <h3>Ethical Hacking</h3>
-               <h3>Amazon AWS</h3>
+              <h2 class="wow fadeInUp">Current Interests:</h2>
+               <h3 class="wow slideInLeft">Node.js</h3>
+               <h3 class="wow slideInRight">Hadoop</h3>
+               <h3 class="wow slideInLeft">Ethical Hacking</h3>
+               <h3 class="wow slideInRight">Amazon AWS</h3>
             </div><!-- /.col-md-12 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
@@ -190,7 +260,7 @@
     <!-- Experience Section -->
     <section id="experience" class="resume-section section-padding">
         <div class="container">
-            <h2 class="section-title wow fadeInUp">Experience</h2>
+            <h2 class="section-title wow fadeIn">Experience</h2>
             <div class="row">
                 <div class="col-md-12">
                     <div class="resume-title">
@@ -199,10 +269,10 @@
                         <ul class="timeline">
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                  <span class="month">Jun 2016 - Aug 2016</span>
+                                  <span class="month wow rubberBand">Jun 2016 - Aug 2016</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInRight">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Application Developer</h3>
@@ -217,14 +287,17 @@
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div> <!-- /timeline-panel -->
+																<div class="imgs_right wow fadeInLeft" style="margin-top:40px">
+																	<img src="assets/images/rightlink.png">
+																</div>
                             </li>
 
                             <li>
                                 <div class="posted-date">
-                                  <span class="month">Sep 2015 - Feb 2016</span>
+                                  <span class="month wow rubberBand">Sep 2015 - Feb 2016</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInLeft">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Research Assistant</h3>
@@ -239,14 +312,17 @@
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
+																<div class="imgs_left wow fadeInRight" style="margin-top: 50px">
+																	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/University_at_Buffalo_Interlocking_UB_logo.svg/2000px-University_at_Buffalo_Interlocking_UB_logo.svg.png">
+																</div>
                             </li>
 
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                  <span class="month">Jun 2015 - Aug 2015</span>
+                                  <span class="month wow rubberBand">Jun 2015 - Aug 2015</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInRight">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Application Developer</h3>
@@ -261,14 +337,17 @@
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div> <!-- /timeline-panel -->
+																<div class="imgs_right wow fadeInLeft" style="margin-top:40px">
+																	<img src="http://www.accendotechnologies.com/images/logo.png">
+																</div>
                             </li>
 
                             <li>
                                 <div class="posted-date">
-                                  <span class="month">Jul 2014 - Aug 2014</span>
+                                  <span class="month wow rubberBand">Jul 2014 - Aug 2014</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInLeft">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Intern</h3>
@@ -282,6 +361,9 @@
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
+																<div class="imgs_left wow fadeInRight" style="margin-top: 50px">
+																	<img src="assets/images/cycops.png">
+																</div>
                             </li>
 
                         </ul>
@@ -409,15 +491,18 @@
 
     <!-- Works Section -->
     <section id="works" class="works-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Projects</h2>
+			<h2 class="section-title wow fadeInUp">Projects</h2>
+      <div class="container wow zoomIn">
+
+
+
 
           <!-- project even
           <div class=" btn btn-primary portfolio-item" style="
           background-color: #52b3d9 !important" data-toggle="collapse" data-target="#project1" aria-expanded="false"  >
             Codeplayer
           </div>
-            <div class="collapse center bounceIn" id="project1">
+            <div class="collapse center wow slideInLeft" id="project1">
               <div class="card card-block">
                    <small class="text-muted" style="color: white">- Realtime HTML, CSS and JavaScript editor</small>
                    <p>Code Player makes learning front end technologies like HTML5, CSS3, Javascript easier</p>
@@ -437,7 +522,7 @@
           <div class=" btn btn-primary portfolio-item"  data-toggle="collapse" data-target="#project2" aria-expanded="false"  >
             Codeplayer
           </div>
-            <div class="collapse center bounceIn" id="project2">
+            <div class="collapse center wow slideInRight" id="project2">
               <div class="card card-block">
                    <small class="text-muted" style="color: white">- Realtime HTML, CSS and JavaScript editor</small>
                    <p>Code Player makes learning front end technologies like HTML5, CSS3, Javascript easier</p>
@@ -458,7 +543,7 @@
           background-color: #52b3d9 !important" data-toggle="collapse" data-target="#project1" aria-expanded="false"  >
             Codeplayer
           </div>
-            <div class="collapse center bounceIn" id="project1">
+            <div class="collapse center wow slideInLeft" id="project1">
               <div class="card card-block">
                    <small class="text-muted" style="color: white">- Realtime HTML, CSS and JavaScript editor</small>
                    <p>Code Player makes learning front end technologies like HTML5, CSS3, Javascript easier</p>
@@ -478,7 +563,7 @@
           <div class=" btn btn-primary portfolio-item"  data-toggle="collapse" data-target="#project2" aria-expanded="false"  >
             equipsavy
           </div>
-            <div class="collapse center bounceIn" id="project2">
+            <div class="collapse center wow slideInRight" id="project2">
               <div class="card card-block">
                   <p>A Web application for tracking and checking out lab equipment from University labs. Utilized Scrum software development framework and Google Firebase</p>
                    <p>JavaScript, HTML, CSS, jQuery</p>
@@ -498,7 +583,7 @@
           background-color: #52b3d9 !important" data-toggle="collapse" data-target="#snapchart" aria-expanded="false"  >
             Snap chart
           </div>
-            <div class="collapse center bounceIn" id="snapchart">
+            <div class="collapse center wow slideInLeft" id="snapchart">
               <div class="card card-block">
                   <p> Android application for data entry and sales tracking utilizing Google API’s. Java, XML, PHP, SQL</p>
                    <p>Java, XML, PHP, MySQL, HTTP</p>
@@ -515,7 +600,7 @@
           <div class=" btn btn-primary portfolio-item"  data-toggle="collapse" data-target="#noteapp" aria-expanded="false"  >
             Note app
           </div>
-            <div class="collapse center bounceIn" id="noteapp">
+            <div class="collapse center wow slideInRight" id="noteapp">
               <div class="card card-block">
                    <p>A simple note taking application using Node.js and HTML.</p>
                    <div class="project-icons">
@@ -532,7 +617,7 @@
           background-color: #52b3d9 !important" data-toggle="collapse" data-target="#ciminelli" aria-expanded="false"  >
             ciminelli
           </div>
-            <div class="collapse center bounceIn" id="ciminelli">
+            <div class="collapse center wow slideInLeft" id="ciminelli">
               <div class="card card-block">
                 <p>Android application to assist factory floor employees to track and maintain assets at job
 site.</p>
@@ -551,7 +636,7 @@ site.</p>
           <div class=" btn btn-primary portfolio-item"  data-toggle="collapse" data-target="#drinksmart" aria-expanded="false"  >
             drink smart
           </div>
-            <div class="collapse center bounceIn" id="drinksmart">
+            <div class="collapse center wow slideInRight" id="drinksmart">
               <div class="card card-block">
                    <p>Android application which takes into account the amount of alcohol one has consumed and determines whether it is safe to drive. If deemed unsafe, the application redirects to book a cab for the user to take home.</p>
                    <p>Java, XML</p>
@@ -571,7 +656,7 @@ site.</p>
           background-color: #52b3d9 !important" data-toggle="collapse" data-target="#formvalidation" aria-expanded="false"  >
             form validation
           </div>
-            <div class="collapse center bounceIn" id="formvalidation">
+            <div class="collapse center wow slideInLeft" id="formvalidation">
               <div class="card card-block">
                    <p>Form validation using jQuery</p>
                    <div class="project-icons">
@@ -587,7 +672,7 @@ site.</p>
           <div class=" btn btn-primary portfolio-item"  data-toggle="collapse" data-target="#os" aria-expanded="false"  >
             pintOS
           </div>
-            <div class="collapse center bounceIn" id="os">
+            <div class="collapse center wow slideInRight" id="os">
               <div class="card card-block">
                    <p>A university group project involving the extension of a simple OS named ‘Pintos’. Tasks included extending the system with threads, the ability to run user programs and virtual memory. The project placed emphasis on concurrency (implementing OS-level semaphores), debugging large systems and memory management.</p>
                    <p>C</p>
@@ -600,7 +685,7 @@ site.</p>
           background-color: #52b3d9 !important" data-toggle="collapse" data-target="#sis" aria-expanded="false"  >
             Student Information System
           </div>
-            <div class="collapse center bounceIn" id="sis">
+            <div class="collapse center wow slideInLeft" id="sis">
               <div class="card card-block">
                    <p>Application to store personal, academic and housing details of students. Implemented using file handling concepts.</p>
                    <p>C++</p>
@@ -715,7 +800,8 @@ site.</p>
         <div class="row">
           <div class="col-md-12">
             <div class="copyright text-center">
-              <p>Akhil Pendyala</p>
+								<a href="#home"><img src="assets/images/logo.png" alt="" style="width: 7%" ></a>
+              <p>&copy; Akhil Pendyala 2017. All rights reserved.</p>
             </div>
           </div>
         </div>
@@ -744,78 +830,19 @@ site.</p>
   <script src="assets/js/jquery.fitvids.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="assets/js/scripts.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function () {
-    //rotation speed and timer
-    var speed = 500;
-
-    var run = setInterval(rotate, speed);
-    var slides = $('.slide');
-    var container = $('#slides ul');
-    var elm = container.find(':first-child').prop("tagName");
-    var item_width = container.width();
-    var previous = 'prev'; //id of previous button
-    var next = 'next'; //id of next button
-    slides.width(item_width); //set the slides to the correct pixel width
-    container.parent().width(item_width);
-    container.width(slides.length * item_width); //set the slides container to the correct total width
-    container.find(elm + ':first').before(container.find(elm + ':last'));
-    resetSlides();
-
-
-    //if user clicked on prev button
-
-    $('#buttons a').click(function (e) {
-        //slide the item
-
-        if (container.is(':animated')) {
-            return false;
-        }
-        if (e.target.id == previous) {
-            container.stop().animate({
-                'left': 0
-            }, 1500, function () {
-                container.find(elm + ':first').before(container.find(elm + ':last'));
-                resetSlides();
-            });
-        }
-
-        if (e.target.id == next) {
-            container.stop().animate({
-                'left': item_width * -2
-            }, 1500, function () {
-                container.find(elm + ':last').after(container.find(elm + ':first'));
-                resetSlides();
-            });
-        }
-
-        //cancel the link behavior
-        return false;
-
-    });
-
-    //if mouse hover, pause the auto rotation, otherwise rotate it
-    container.parent().mouseenter(function () {
-        clearInterval(run);
-    }).mouseleave(function () {
-        run = setInterval(rotate, speed);
-    });
-
-
-    function resetSlides() {
-        //and adjust the container so current is in the frame
-        container.css({
-            'left': -1 * item_width
-        });
-    }
-
-});
-//a simple function to click next link
-//a timer will call this function, and the rotation will begin
-
-function rotate() {
-    $('#next').click();
-}
+	<script src="assets/js/typed.js"></script>
+	<script>
+ 		$(function(){
+			 $(".element").typed({
+				strings: ["<h1>Senior <span>student</span></h1>^1000","<h1>Web <span>Developer</span></h1>^1000","<h1>Application <span>Developer</span></h1>^1000"],
+    		contentType: 'html',
+			 	typeSpeed: 50,
+				showCursor: true,
+				cursorChar: "|",
+				shuffle: true,
+				loop:true
+		 	});
+ 		});
 </script>
 </body>
 </html>
