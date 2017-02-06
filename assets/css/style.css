@@ -28,6 +28,23 @@
 =====================================
 */
 
+.profile_image{
+ position: absolute;
+  width: 150px;
+  left: 45%;
+  top: -40%;
+  height: 150px;
+  border-radius: 50%; /*don't forget prefixes*/
+  background-image: url("../images/akhil.jpg");
+  opacity: 0.7;
+  border: 0.01px solid grey;
+
+  /* as mentioned by Vad: */
+  background-size: cover;
+}
+
+
+
 .project_button{
   width: 1200px;
   margin: 0 auto;
@@ -42,8 +59,11 @@
 
 
 
+
+
+
 .center{
-  width: 1200px;
+  width: inherit;
   background-color: grey;
   margin-top: -2px;
   height: 100%;
@@ -402,8 +422,22 @@ ul.list-check li::before {
 /* === HOME === */
 @media (max-width : 640px) {
     .tt-fullHeight{
-        height: 560px !important;
+        height: 890px !important;
     }
+    .profile_image{
+      left: 35% !important;
+    }
+    .portfolio-item {
+      width:inherit !important;
+      font-size: 100% !important;
+
+    }
+
+    .center{
+      width:inherit !important;
+    }
+
+
 }
 
 
@@ -1045,6 +1079,7 @@ Resume Timeline
 }
 
 
+
 }
 
 
@@ -1173,7 +1208,7 @@ Resume Timeline
     background-color: #f7f7f7;
 }
 .portfolio-item {
-  width: 1200px;
+  width: inherit;
   margin: 0 auto;
   height: 45px;
   border-top-left-radius: 8px;
@@ -1182,6 +1217,7 @@ Resume Timeline
   border-bottom-right-radius: 8px;
   margin-bottom: 2px;
   font-size: 170%;
+  padding: 5px;
 }
 
 
